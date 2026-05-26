@@ -4,7 +4,7 @@ Stacked-residual differential machine learning for option pricing. Combines the
 residual/boosting structure from Eshkofti & Barreau's vanishing-stacked-residual
 PINN with Huge & Savine's differential ML.
 
-## Idea in one paragraph
+## Idea 
 
 A vanilla DML net struggles on European calls particularly in the ITM region
 because pathwise differentials carry little information there (delta saturates,
