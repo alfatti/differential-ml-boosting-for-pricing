@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diff-boosting"
+version = "0.1.0"
+description = "Stacked-residual differential machine learning for option pricing"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["diff_boosting*"]
